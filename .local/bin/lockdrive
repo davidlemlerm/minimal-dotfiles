@@ -1,0 +1,3 @@
+#!/bin/sh
+sudo umount /run/media/davidlemlerm/sda3-crypt
+sudo cryptsetup luksClose sda3-crypt

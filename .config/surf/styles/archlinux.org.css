@@ -1,0 +1,34 @@
+:root {
+    --dark-strong: #191916;
+    --dark: #32322d;
+    --light: #c8c8b5;
+    --light-strong: #ffffe6;
+    --accent: #ffff9b;
+}
+
+body,
+#content,
+#content *,
+#punindex,
+#punindex *,
+.selected,
+#menu,
+#pm-menu,
+.styled-table.full.size * {
+    background-color: var(--dark) !important;
+    border-color: var(--accent) !important;
+    color: var(--light) !important;
+}
+
+#content a:not(.new),
+#mw-navigation li:not(.new) a:not(.new),
+#mw-panel li:not(.new) a:not(.new),
+#column-one li:not(.new) a:not(.new),
+#footer a:not(.new),
+a {
+    color: var(--light-strong) !important;
+}
+
+#archnavbar {
+    border-bottom-color: var(--accent) !important;
+}

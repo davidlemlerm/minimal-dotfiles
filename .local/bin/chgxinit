@@ -1,0 +1,48 @@
+#!/bin/bash
+if [[ "$1" ]]; then
+	change="$1"
+else
+	echo "Choices:"
+	echo "awesome"
+	echo "bspwm"
+	echo "dwm"
+	echo "i3"
+	echo "ratpoison"
+	echo "xfce"
+	read -p "Pick your poison: " change
+fi
+case "$change" in
+	"awesome")
+		rm ~/.xinitrc
+		ln -s ~/.xinitrc.awesome ~/.xinitrc
+		echo "Successfully changed to awesome."
+		;;
+	"bspwm")
+		rm ~/.xinitrc
+		ln -s ~/.xinitrc.bspwm ~/.xinitrc
+		echo "Successfully changed to bspwm."
+		;;
+	"dwm")
+		rm ~/.xinitrc
+		ln -s ~/.xinitrc.dwm ~/.xinitrc
+		echo "Successfully changed to dwm."
+		;;
+	"i3")
+		rm ~/.xinitrc
+		ln -s ~/.xinitrc.i3 ~/.xinitrc
+		echo "Successfully changed to i3."
+		;;
+	"ratpoison")
+		rm ~/.xinitrc
+		ln -s ~/.xinitrc.ratpoison ~/.xinitrc
+		echo "Successfully changed to ratpoison."
+		;;
+	"xfce")
+		rm ~/.xinitrc
+		ln -s ~/.xinitrc.xfce ~/.xinitrc
+		echo "Successfully changed to xfce."
+		;;
+	*)
+		echo "Selection not available."
+		echo ".xinitrc not changed."
+esac
