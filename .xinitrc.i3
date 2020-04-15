@@ -1,0 +1,32 @@
+while true
+do
+	# Generate Panel Info
+	pkginfo="Package Updates/Total: $(pacman -Qu | wc -l)/$(pacman -Q | wc -l)"
+	ipinfo="LAN IP: $(ip a | grep -A 1 'enp0s3' | sed -n 3p | awk '{print $2}' | cut -d "/" -f 1)"
+	dateinfo="$(date +"%I:%M %p - %Y-%m-%d")"
+	infodisplay="$pkginfo | $ipinfo | $dateinfo"
+	
+	sleep 5s
+done &
+
+# Screen Resolution
+xrandr --newmode "1920x1080"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode Virtual-1 1920x1080
+xrandr --output Virtual-1 --mode 1920x1080
+
+# Screen Locker
+xautolock -time 5 -locker slock &
+
+# Alpha
+xcompmgr &
+
+# VNC
+#while true
+#do
+#	x11vnc -rfbauth ~/.vnc/passwd
+#done &
+
+# Wallpaper
+feh --no-fehbg --bg-scale ~/.local/share/Wallpaper.png &
+
+exec i3
