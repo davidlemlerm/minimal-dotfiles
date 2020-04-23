@@ -1,4 +1,4 @@
 #!/bin/sh
 sudo cryptsetup luksOpen /dev/sdb1 sdb1-crypt
-sudo mount /dev/mapper/sdb1-crypt /run/media/davidlemlerm/sdb1-crypt
-cd /run/media/davidlemlerm/sdb1-crypt
+sudo mount /dev/mapper/sdb1-crypt /media/davidlemlerm/sdb1-crypt
+cd /media/davidlemlerm/sdb1-crypt
