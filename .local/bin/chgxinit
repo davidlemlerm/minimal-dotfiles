@@ -7,6 +7,7 @@ else
 	echo "bspwm"
 	echo "dwm"
 	echo "i3"
+	echo "mate"
 	echo "ratpoison"
 	echo "xfce"
 	read -p "Pick your poison: " change
@@ -14,32 +15,37 @@ fi
 case "$change" in
 	"awesome")
 		rm ~/.xinitrc
-		ln -s ~/.xinitrc.awesome ~/.xinitrc
+		ln -s ~/.config/xinitrconfigs/xinitrc.awesome ~/.xinitrc
 		echo "Successfully changed to awesome."
 		;;
 	"bspwm")
 		rm ~/.xinitrc
-		ln -s ~/.xinitrc.bspwm ~/.xinitrc
+		ln -s ~/.config/xinitrconfigs/xinitrc.bspwm ~/.xinitrc
 		echo "Successfully changed to bspwm."
 		;;
 	"dwm")
 		rm ~/.xinitrc
-		ln -s ~/.xinitrc.dwm ~/.xinitrc
+		ln -s ~/.config/xinitrconfigs/xinitrc.dwm ~/.xinitrc
 		echo "Successfully changed to dwm."
 		;;
 	"i3")
 		rm ~/.xinitrc
-		ln -s ~/.xinitrc.i3 ~/.xinitrc
+		ln -s ~/.config/xinitrconfigs/xinitrc.i3 ~/.xinitrc
 		echo "Successfully changed to i3."
+		;;
+	"mate")
+		rm ~/.xinitrc
+		ln -s ~/.config/xinitrconfigs/xinitrc.mate ~/.xinitrc
+		echo "Successfully changed to mate"
 		;;
 	"ratpoison")
 		rm ~/.xinitrc
-		ln -s ~/.xinitrc.ratpoison ~/.xinitrc
+		ln -s ~/.config/xinitrconfigs/xinitrc.ratpoison ~/.xinitrc
 		echo "Successfully changed to ratpoison."
 		;;
 	"xfce")
 		rm ~/.xinitrc
-		ln -s ~/.xinitrc.xfce ~/.xinitrc
+		ln -s ~/.config/xinitrconfigs/xinitrc.xfce ~/.xinitrc
 		echo "Successfully changed to xfce."
 		;;
 	*)
