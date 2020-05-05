@@ -14,9 +14,7 @@ Documents
 .local/share/Trash
 .local/share/webkitgtk
 .local/share/xorg
-.moc/equalizer
-.moc/last_directory
-.moc/softmixer
+.moc
 Music
 .newsboat/cache.db
 Pictures
