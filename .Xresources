@@ -1,0 +1,25 @@
+URxvt.font: xft:Liberation Mono:size=10
+URxvt.boldFont: xft:Liberation Mono:size=10:bold
+URxvt.italicFont: xft:Liberation Mono:size=10:italic
+URxvt.boldItalicFont: xft:Liberation Mono:size=10:bold:italic
+URxvt.scrollBar_right: true
+URxvt.scrollstyle: plain
+URxvt*color0: #191916
+URxvt*color1: #ff9b9d
+URxvt*color2: #9bff9b
+URxvt*color3: #ffff9b
+URxvt*color4: #9b9bff
+URxvt*color5: #ff9bff
+URxvt*color6: #9bffff
+URxvt*color7: #c8c8b5
+URxvt*color8: #32322d
+URxvt*color9: #ff9b9d
+URxvt*color10: #9bff9b
+URxvt*color11: #ffff9b
+URxvt*color12: #9b9bff
+URxvt*color13: #ff9bff
+URxvt*color14: #9bffff
+URxvt*color15: #ffffe6
+URxvt*background: #191916
+URxvt*foreground: #c8c8b5
+URxvt*cursorColor: #cccccc
