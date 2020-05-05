@@ -8,6 +8,7 @@ Documents
 .ICEauthority
 .local/build
 .local/share/mc/history
+.local/share/ranger/bookmarks
 .local/share/ranger/history
 .local/share/Trash
 .local/share/webkitgtk
