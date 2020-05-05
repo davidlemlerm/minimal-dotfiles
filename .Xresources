@@ -1,7 +1,8 @@
-URxvt.font: xft:Liberation Mono:size=10
-URxvt.boldFont: xft:Liberation Mono:size=10:bold
-URxvt.italicFont: xft:Liberation Mono:size=10:italic
-URxvt.boldItalicFont: xft:Liberation Mono:size=10:bold:italic
+URxvt.font: xft:Liberation Mono:size=9
+URxvt.boldFont: xft:Liberation Mono:size=9:bold
+URxvt.italicFont: xft:Liberation Mono:size=9:italic
+URxvt.boldItalicFont: xft:Liberation Mono:size=9:bold:italic
+URxvt.letterSpace: -1
 URxvt.scrollBar_right: true
 URxvt.scrollstyle: plain
 URxvt*color0: #191916
