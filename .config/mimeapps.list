@@ -1,4 +1,5 @@
 [Default Applications]
+application/csv=sc-im.desktop
 text/plain=vim.desktop
 image/gif=sxiv.desktop
 image/jpeg=sxiv.desktop
