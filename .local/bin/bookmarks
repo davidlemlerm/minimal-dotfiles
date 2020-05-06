@@ -1,0 +1,7 @@
+#!/bin/sh
+bookmarksLocation=~/Documents/Bookmarks.txt
+site=$(cat "$bookmarksLocation" | dmenu -nb "#191916" -nf "#c8c8b5" -sb "#ffff9b" -sf "#32322d" -c -l 40)
+if [[ -z "$site" ]]; then exit;
+else
+	surf "$site"
+fi
