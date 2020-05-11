@@ -1,4 +1,5 @@
 .bash_history
+.btpd
 .cache
 .config/neofetch
 .config/pulse
@@ -20,6 +21,7 @@ Music
 .newsboat/cache.db
 Pictures
 .pki
+.sc-iminfo
 .ssh/authorized_keys
 .ssh/id_rsa
 .ssh/known_hosts
