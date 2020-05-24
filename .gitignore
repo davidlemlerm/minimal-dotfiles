@@ -5,9 +5,11 @@
 .config/surf/cookies.txt
 Documents
 Downloads
+.fltk
 .gitconfig
 .gnupg
 .ICEauthority
+.links
 .local/build
 .local/share/mc/history
 .local/share/ranger/bookmarks
@@ -28,6 +30,7 @@ Public
 Videos
 .vim
 .viminfo
+.w3m
 .wget-hsts
 .Xauthority
 .xinitrc
